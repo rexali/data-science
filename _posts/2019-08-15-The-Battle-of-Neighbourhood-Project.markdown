@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Battle of Neighbourhood Project"
-date:   2019-05-23 05:16:49 +0100
+date:   2019-08-15 20:34:49 +0100
 categories: report update
 ---
 
@@ -12,7 +12,7 @@ Mujaware Services LLC wants to open (restaurant) business but doesn't know which
 Hence the problem is
 how to determine the right neighbourhood for Mujaware Services LLC to open a (restaurant) business.
 
-### 1.2 Research Question and Hypothesis
+### 1.2 Research Questions
 To solve the above-mentioned problems, the right research questions should be: 
 * are there relevant data on these two neighbourhoods of concern - the Manhattan and the Downtown Neighbourhoods in the Toronto and the New York Cities respectively with sufficient characteristics?
 * What features (variables) or characteristics that can influence or affect a choice of neighbourhood?
@@ -29,10 +29,10 @@ The stepping stones towards achieving the earlier mentioned goal are:
 * two, to explore and analyse the promising dataset.
 * finally, to come up with solution to the earlier problem and communicate the findings and make recommendations to the relevant audience or the company using story-telling. 
 
-### 1.5 Audience (Stakeholders)
+### 1.5 Audiences (Stakeholders)
 The right audience for this work is the Mujaware Services LLC's management and other people who may want to cite or start up a business in the neighbourhooods earlier-mentioned.
 
-### 1.6 Significance (Justifications) of the Study
+### 1.6 Significance (Justification) of the Study
 The project or solution is important to the stakeholders and other audiences  because it provides the best  neighbourhood to be considered in citing a business in the city.
 Besides, it helps the audience or stakeholders in making or reaching decision quickly. 
 
