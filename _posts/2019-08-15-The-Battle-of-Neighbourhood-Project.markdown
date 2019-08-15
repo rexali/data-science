@@ -56,7 +56,7 @@ Toronto has much more uniform distribution of population and average income than
 
 Hence, based on observation and the available data before analysis, the hypothesis or assumption is that 
 the Manhanttan neighbourhood of the New York City is better to be recommended to the audience than the Downtown neighbourhood of the Toronto City.
-
+<!--
 ## 2.0 Data 
 ### 2.1 Data Requirements
 The dataset or set of data available for this project are:
@@ -102,7 +102,7 @@ the Longitude is an imaginary line running north and south of Green Wich meridia
 The borough is a subset of a city. The neighbourhood is the community area name. 
 
 The target value (variable) or label of the data set is the neighbourhood which is the dependent variable. The other variables is like longitudes, latitudes, venues, etc are the independent (predictor) variables.
-
+-->
 
 
 
