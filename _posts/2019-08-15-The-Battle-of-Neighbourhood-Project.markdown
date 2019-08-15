@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Battle of Neighbourhood!"
+title:  "The Battle of Neighbourhood Project"
 date:   2019-05-23 05:16:49 +0100
 categories: report update
 ---
