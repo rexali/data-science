@@ -8,32 +8,29 @@ categories: report update
 ## 1.0 Introduction 
 
 ### 1.1 Statement of the Problem 
-Mujaware Services LLC wants to open (restaurant) business but doesn't know which one of these two neighbourhoods - the Manhattan and the Downtown in the New York City and Toronto City respectively - is better to open or cite a branch of the company or business. 
+Mujaware Services LLC wants to open (restaurant) business but doesn't know which one of these two neighbourhoods, the Manhattan and the Downtown in the New York City and the Toronto City respectively, is better to open or cite a company or business. 
 Hence the problem is
-how to determine the right neighbourhood for Mujaware Services LLC to open or start up a (restaurant) business.
+how to determine the right neighbourhood for Mujaware Services LLC to open a (restaurant) business.
 
 ### 1.2 Research Question and Hypothesis
 To solve the above-mentioned problems, the right research questions should be: 
-* are there relevant data on these two neighbourhoods of concern - the Manhattan and Down Town Neighbourhoods in the Toronto and New York Cities respectively with sufficient characteristics?
+* are there relevant data on these two neighbourhoods of concern - the Manhattan and the Downtown Neighbourhoods in the Toronto and the New York Cities respectively with sufficient characteristics?
 * What features (variables) or characteristics that can influence or affect a choice of neighbourhood?
-* Does the available data have enough characteristics or features e.g proximity to market, population, labour force, water, transport facilities, raw material, climate, site etc that are  factors to be considered in citing a business?
+* Does the available data have enough characteristics or features e.g proximity to market, population, labour force, water, transport facilities, raw material, climate, site and others that are  factors to be considered in citing a business?
 * is the Downtown neighbourhood of the Toronto City better than the Manhattan neighbourhoods of the New York City in citing a business or vice versa?
-* finally, which neighbourhoods is best to be recommended to the company's stakeholders?
-
-Hence, based on observation and the available data before analysis, the hypothesis or assumption is that 
-the Manhanttan neighbourhood of the New York City is better to be recommended to the audience than the Downtown neighbourhood of the Toronto City.
+* finally, which neighbourhoods is the best to be recommended to the company's stakeholders?
 
 ### 1.3 Aim (Goal)
 The goal is to recommend the best neighbourhood between the two given neighbourhoods to the company stakeholders and other interested audience at large.
 
 ### 1.4 Objectives
 The stepping stones towards achieving the earlier mentioned goal are:
-* one, to collect the relevant data that best represents both neighbourhoods and highly likely to provide solutions to the problem.
+* one, to collect the relevant data that best represent both neighbourhoods and highly likely to provide solutions to the problem.
 * two, to explore and analyse the promising dataset.
-* finally, to come up with solution to the earlier problem and communicate the findings and make recommendations using to the relevant audience or the company using story-teling. 
+* finally, to come up with solution to the earlier problem and communicate the findings and make recommendations to the relevant audience or the company using story-telling. 
 
 ### 1.5 Audience (Stakeholders)
-The right audience for this work is the Mujaware Services LLC's management and other people who may want to cite or startup a business in the neighbourhooods earlier-mentioned.
+The right audience for this work is the Mujaware Services LLC's management and other people who may want to cite or start up a business in the neighbourhooods earlier-mentioned.
 
 ### 1.6 Significance (Justifications) of the Study
 The project or solution is important to the stakeholders and other audiences  because it provides the best  neighbourhood to be considered in citing a business in the city.
@@ -57,12 +54,15 @@ The Toronto City seems to have more uniform neighborhood type than New York City
 For Toronto, population density is slightly higher in the Old City of Toronto and York than the other three. In terms of Average income, Old city of Toronto has highest average income but not very far from other four.
 Toronto has much more uniform distribution of population and average income than the New York City". ([Khan, 2019] [Khan-2019])
 
+Hence, based on observation and the available data before analysis, the hypothesis or assumption is that 
+the Manhanttan neighbourhood of the New York City is better to be recommended to the audience than the Downtown neighbourhood of the Toronto City.
+
 ## 2.0 Data 
 ### 2.1 Data Requirements
 The dataset or set of data available for this project are:
-* Demographics of New York City from U.S. Census of 2000, the New York Department
-of city planning hosted by [N Y U] [Demographics-of-New-York-Census]
-* Demographics of New York City from wikipedia page - [Demographics of New York City] [Demographics-of-New-York-City]
+* Demographics of New York City from U.S. Census of 2000 and the New York Department
+of City Planning hosted by [N Y U] [Demographics-of-New-York-Census]
+* Demographics of New York City from wikipedia - [Demographics of New York City] [Demographics-of-New-York-City]
 * List of Postal Codes of Canada from wikipedia - [Canada List Postal Code] [Canada-List-Postal-Code]
 * Boroughs of Nework City from wikipedia - [Boroughs of New York City] [Boroughs-of-New-York-City] 
 * Demographics of Toronto Neighbourhoods from wikipedia which is in turn taken from 2006 Canadian Census - [Demographics of Toronto Neighbourhoods] [Demographics-of-Toronto-Neighbourhoods]
@@ -71,7 +71,7 @@ of city planning hosted by [N Y U] [Demographics-of-New-York-Census]
 The New York City's neighbourhoods dataset for this project is collected from '2000 New York City Neighborhood Names' dataset hosted by NYU’s Spatial Data Repository.
 The addresses of the neighbourhoods got from the dataset are used to obtain their equivalent latitude and logitude coordinates of each neighbourhood using geocoder API.
 
-Similarly, Toronto's neighbourhoods data are collected or scraped from the Wikipedia page, [Canadian List of Postal Code] [Canada-List-Postal-Code], wrangled, cleaned, then read into a pandas dataframe and structured and formatted like the New York dataset.
+Similarly, Toronto's neighbourhoods data are collected or scraped from the Wikipedia, [Canadian List of Postal Code] [Canada-List-Postal-Code], wrangled, cleaned, then read into a pandas dataframe and structured and formatted like the New York dataset.
 
 The other datasets are to be visualized and drawn an information or insight from them to complement the anlaysis.
 
@@ -82,7 +82,7 @@ The Foursquare ‘venue’ is assigned a ‘category’ and each ‘category’ 
 
 
 ### 2.2 Data Understanding
-The data collected based on the data requirements above. The dataset is opened source dataset. 
+The datasets are collected based on the data requirements above. The datasets are opened sourced datasets. 
 The forms of the two neighbourhoods datasets are in comma separated values with '.csv' extensions. The third dataset is geojson of Toronto City with '.json' extension.
 The attributes or characteristics of the data are: 
 * identity numbers, 
@@ -98,8 +98,8 @@ The attributes or characteristics of the data are:
 * tips etc.
 
 The latitude is the line running east and west of the earth measured in numeric while
-the Longitude is an imaginary line running north and south of Green Wich meridian measured in numeric.
-The borough is a subset of city. The neighbourhood is the community area name. 
+the Longitude is an imaginary line running north and south of Green Wich meridian also measured in numeric.
+The borough is a subset of a city. The neighbourhood is the community area name. 
 
 The target value (variable) or label of the data set is the neighbourhood which is the dependent variable. The other variables is like longitudes, latitudes, venues, etc are the independent (predictor) variables.
 
