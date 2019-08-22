@@ -88,6 +88,7 @@ Figure 3: The Manhattan's Map Showing Neighourhoods and Venues' Clusters
 
 Figure 4: The Downtown's Map Showing the Neighbourhoods and Venues' Clusters
 ![Downtown K Mean](/images/downtown-kmean.JPG)
+<img src='/images/downtown-kmean.JPG'/>
 
 ## 5.0 Discussion
 ### 5.1 Observations
