@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Battle of Neighbourhood Project"
+title:  "The Battle of Neighbourhood - Data"
 date:   2019-08-15 20:34:49 +0100
 categories: report update
 ---
@@ -50,6 +50,9 @@ the Longitude is an imaginary line running north and south of Green Wich meridia
 The borough is a subset of a city. The neighbourhood is the community area name. 
 
 The target value (variable) or label of the data set is the neighbourhood which is the dependent variable. The other variables is like longitudes, latitudes, venues, etc are the independent (predictor) variables.
+
+
+
 
 
 
