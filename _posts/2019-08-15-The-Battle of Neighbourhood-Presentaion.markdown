@@ -1,22 +1,23 @@
 ---
 layout: post
-title:  "The Battle of Neighbourhood - Presentaion"
-date:   2019-08-22 20:34:49 +0100
+title:  "The Battle of Neighbourhood - Presentation"
+date:   2019-08-15 20:34:49 +0100
 categories: report update
 ---
 
-# 1.0 Introduction
-## 1.1 Problem 
+## 1.0 Introduction
+### 1.1 Problem 
 Mujaware Services LLC wants to open (restaurant) business but doesn't know which one of these two neighbourhoods, the Manhattan and the Downtown in the New York City and the Toronto City respectively, is better to open or cite a company or business. 
 Hence the problem is
 how to determine the right neighbourhood for Mujaware Services LLC to open a (restaurant) business.
-## 1.7  Background
+### 1.7  Background
 
 Muware Services LLC is service-rendering company that has been in existence for several years. This year, the management of the company is planning of expanding their services to one of the two cities' neighbourhoods of the New York City and the Toronto City. 
 
 The New York City and the Toronto city are both cities in different countries United States and Canada respectively. The two respective neighbourhoods that is of interest here are the Manhattan in the New York City and and the Downtown in Toronto.
-# 2.0 Data
-## 2.1 Source of Data
+## 2.0 Data
+
+### 2.1 Source of Data
 The dataset or set of data available for this project are:
 * Demographics of New York City from U.S. Census of 2000 and the New York Department
 of City Planning hosted by [N Y U] [Demographics-of-New-York-Census]
@@ -25,7 +26,8 @@ of City Planning hosted by [N Y U] [Demographics-of-New-York-Census]
 * Boroughs of Nework City from wikipedia - [Boroughs of New York City] [Boroughs-of-New-York-City] 
 * Demographics of Toronto Neighbourhoods from wikipedia which is in turn taken from 2006 Canadian Census - [Demographics of Toronto Neighbourhoods] [Demographics-of-Toronto-Neighbourhoods]
 * Foursquare API Geolocation data - [Foursquare API] [Foursquare-Developer-API]
-## 2.2 Data Description
+
+### 2.2 Data Description
 The datasets are collected based on the data requirements above. The datasets are opened sourced datasets. 
 The forms of the two neighbourhoods datasets are in comma separated values with '.csv' extensions. The third dataset is geojson of Toronto City with '.json' extension.
 The attributes or characteristics of the data are: 
@@ -47,13 +49,16 @@ The borough is a subset of a city. The neighbourhood is the community area name.
 
 The target value (variable) or label of the data set is the neighbourhood which is the dependent variable. The other variables is like longitudes, latitudes, venues, etc are the independent (predictor) variables.
 
-# 3.0 Research Methodology/Tools
-## 3.1 Exploratory Data Analysis
+## 3.0 Research Methodology/Tools
+
+### 3.1 Exploratory Data Analysis
 The data sets of the two neighbourhoods, the Downtown and the Manhattan were visualized to gain knowledge of the distribution of variables and the neighbourhoods in the Boroughs, the Downtown and the Manhattan, using folium library to see how the neighbourhoods in this borough are spatially distributed. The resulting data is subjected to initial step of data analysis – the exploratory data analysis (EDA) to gain insight on how correlated or trending the data are.
 After the data sets have been subjected to exploratory data analysis using Folium, Seaborn and Matplotlib libraries to see how the variables of the data are distributed, trending and insight gained, the data was then subjected to pre-processing stage.
-## 3.2    Inferential Statistical Testing Techniques (Machine Learning)
+
+### 3.2    Inferential Statistical Testing Techniques (Machine Learning)
 Here the encoded data during the analysis are fed into the machine learning algorithm - K-mean Clustering - to group or segment the neighbourhoods. At the end, the neighbourhoods that have similar characteristics are grouped together. Thence the similarities and dissimilarities of the Downtown and the Manhattan are observed.
-# 4.0 Results
+
+## 4.0 Results
 Table 1: First Five of Group of Neighbourhoods and Venues of the Manhattan
 ![Manhattan Groupby](/images/manhattan-groupby.JPG){:class='img-responsive'}
 
@@ -84,15 +89,15 @@ Figure 3: The Manhattan's Map Showing Neighourhoods and Venues' Clusters
 Figure 4: The Downtown's Map Showing the Neighbourhoods and Venues' Clusters
 ![Downtown K Mean](/images/downtown-kmean.JPG){:class='img-responsive' width='1440px'}
 
-# 5.0 Discussion
-## 5.1 Observations
+## 5.0 Discussion
+### 5.1 Observations
 The two neighbourhoods in the Manhattan of the New York City and the Downtown Toronto of the Toronto City - are similar in having banks, grocery, market, farmers market, waterfall, college, transport station and buildings but dissimilar in other venues listed above and in the table 2.5 shown above in the result section.
 
 These venues that are similar indirectly represent availability of capital made available by bank, raw materials provided by the farmers markets and groceries, water provided by waterfall, labour provided by the colleges and the universities, efficient management provided by the college and the competitors which are in the restaurant businesses in the neighbourhoods, transport facilities provided by the presence of bus or train stations in the neighbourhoods.
 
-## 5.5 Recommendations
+### 5.5 Recommendations
 Even though there are factors that are not available during the research, the research still recommend that the Manhattan neighbourhoods should be considered in citing a restaurant business if the two boroughs given to be considered are the Manhattan and the Downtown.
-# 6.0 Conclusion
+## 6.0 Conclusion
 In the end, the Manhattan neighbourhoods are better than the Downtown neighbourhoods in citing a restaurant business based on the available data. Why? Though the two neighbourhoods are similar in factor that influence the location of restaurant business yet they are glaringly dissimilar in the population densities and hence the market shares of a potential restaurant business.
 Any potential restaurant businesses cite in the Manhattan will have large market share because of the population or population density of the area than if it is to be cited in the Downtown.
 
