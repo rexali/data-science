@@ -90,7 +90,7 @@ Figure 4: The Downtown's Map Showing the Neighbourhoods and Venues' Clusters
 ![Downtown K Mean]({{site.baseurl}}/images/downtown-kmean.JPG)
 <img src='/images/downtown-kmean.JPG'/>
 
-## 5.0 Discussion
+## 5.0 Discussions
 ### 5.1 Observations
 The two neighbourhoods in the Manhattan of the New York City and the Downtown Toronto of the Toronto City - are similar in having banks, grocery, market, farmers market, waterfall, college, transport station and buildings but dissimilar in other venues listed above and in the table 2.5 shown above in the result section.
 
