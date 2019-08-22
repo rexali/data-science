@@ -158,40 +158,40 @@ You will refer to the literature review to bolster your choice for variables, da
 ### 4.1 Data Analysis
 ### 4.1.1 Descriptive Statistics
 Table 1: First Five of Group of Neighbourhoods and Venues of the Manhattan
-![Manhattan Groupby](/images/manhattan-groupby.JPG)
+![Manhattan Groupby]({{site.baseurl}}/images/manhattan-groupby.JPG)
 
 The result obtained when the Manhattan neighbourhoods are grouped shows there are 341 uniques venue categories in the Manhattan as shown in the table 1 above. The first five neighbourhoods in the table do not represent this number above but the rest of the neighbourhoods can be viewed here(link). Note that, this result returned by the Foursquare API is within the radius of 500.
 
 Table 2: First Five of Group of Neighbourhoods and Venues of the Downtown
-![Downtown Groupby](/images/downtown-groupby.JPG)
+![Downtown Groupby]({{site.baseurl}}/images/downtown-groupby.JPG)
 Also, the result obtained when the Downtown neighbourhoods are grouped shows that there are 207 unique venue categoies in the Downtown as shown in the table 2 above. The first five neighbourhoods returned by the Foursquare API in the table do not represent this total but the rest can be viewed here.(link) Also, note that, the returned result is within the radius of 500. 
 
 Table 3: The Most Common Venues of the First Five Neighbourhoods of the Downtown
-![Downtown Venues](/images/downtown-venues.JPG){:class='img-responsive'}
+![Downtown Venues]({{site.baseurl}}/images/downtown-venues.JPG){:class='img-responsive'}
 
 When the Downtown neighbourhoods is analysed, the resulting distribution of the venues associated with the respective neighbourhoods in the Downtown is shown above on the table 3. Here in the Downtown there are 1284 venues as returned by the Foursqure API which are within the radius of 500 metres
 
 Table 4: The Most Common Venues of the First Five Neighbourhoods of the Manhattan
-![Manhattan Venues](/images/manhattan-venues.JPG)
+![Manhattan Venues]({{site.baseurl}}/images/manhattan-venues.JPG)
 Likewise, when the Manhattan neighbourhoods is analysed, the resulting distribution of the venues associated with the respective neighbourhoods in the Downtown is shown above on the table 4. Here also in the Manhattan, there are 3324 venues as returned by the Foursqure API which are also within the radius of 500 metres
 
 Table 5: First Five Cluster Neighbourhoods of the Downtown
-![Downtown Cluster](/images/downtown-cluster.JPG)
+![Downtown Cluster]({{site.baseurl}}/images/downtown-cluster.JPG)
 
 When the Downtown Borough is analysed and clustered, the resulting 10 most common venues and cluster labels associated with the various neighbourhoods are shown in the table 5 above.
 
 Table 6: First Five Cluster Neighbourhoods of the Manhattan
-![Manhattan Cluster](/images/manhattan-cluster.JPG)
+![Manhattan Cluster]({{site.baseurl}}/images/manhattan-cluster.JPG)
 Again, when the Manhattan Borough is analysed and clustered, the resulting 10 most common venues and cluster labels associated with the various neighbourhoods are shown in the table 6 above.
 
 Figure 1: The Downtown's Map Showing Neighourhood and Venues
-![Downtown Venues Map](/images/downtown-venues-map.JPG)
+![Downtown Venues Map]({{site.baseurl}}/images/downtown-venues-map.JPG)
 
 The figure 1 above shows distribution of the neighbourhood and venues in the Downtown Borough  when they are superimposed on the map of Downtown Toronto. This map represents the distribution before being clustered
 
 
 Figure 2: The Manhattan's Map Showing Neighourhood and Venues
-![Manhattan Venues Map](/images/manhattan-venues-map.JPG)
+![Manhattan Venues Map]({{site.baseurl}}/images/manhattan-venues-map.JPG)
 
 Besides, the figure 2 above shows distribution of the neighbourhood and venues in the Downtown Borough  when they are superimposed on the map of the Manhattan Borough. This map represents the distribution before being clustered
 
@@ -199,12 +199,12 @@ Besides, the figure 2 above shows distribution of the neighbourhood and venues i
 When the neighbourhoods of the two Boroughs are clustered into 5 groups using machine learning algorithm - K-mean Clustering - the resulting clusters of neighbourhoods in borough are shown below in figure 3 and 4 below.
 
 Figure 3: The Manhattan's Map Showing Neighourhoods and Venues' Clusters
-![Manhattan K Mean](/images/manhattan-kmean.JPG)
+![Manhattan K Mean]({{site.baseurl}}/images/manhattan-kmean.JPG)
 
 When the neighbourhoods and venues of the Manhattan Borough are superimposed on the map of Manhattan after being clustered, the resulting distribution of the neighourhoods and venues are shown above in the figure 3.
 
 Figure 4: The Downtown's Map Showing the Neighbourhoods and Venues' Clusters
-![Downtown K Mean](/images/downtown-kmean.JPG)
+![Downtown K Mean]({{site.baseurl}}/images/downtown-kmean.JPG)
 
 Similarly, when the neighbourhoods and venues of the Downtown Borough are superimposed on the map of Downtown after being clustered, the resulting distribution of the neighourhoods and venues are shown above in figure 4.
 

@@ -60,34 +60,34 @@ Here the encoded data during the analysis are fed into the machine learning algo
 
 ## 4.0 Results
 Table 1: First Five of Group of Neighbourhoods and Venues of the Manhattan
-![Manhattan Groupby](/images/manhattan-groupby.JPG)
+![Manhattan Groupby]({{site.baseurl}}/images/manhattan-groupby.JPG)
 
 Table 2: First Five of Group of Neighbourhoods and Venues of the Downtown
-![Downtown Groupby](/images/downtown-groupby.JPG)
+![Downtown Groupby]({{site.baseurl}}/images/downtown-groupby.JPG)
 
 Table 3: The Most Common Venues of the First Five Neighbourhoods of the Downtown
-![Downtown Venues](/images/downtown-venues.JPG)
+![Downtown Venues]({{site.baseurl}}/images/downtown-venues.JPG)
 
 Table 4: The Most Common Venues of the First Five Neighbourhoods of the Manhattan
-![Manhattan Venues](/images/manhattan-venues.JPG)
+![Manhattan Venues]({{site.baseurl}}/images/manhattan-venues.JPG)
 
 Table 5: First Five Cluster Neighbourhoods of the Downtown
-![Downtown Cluster](/images/downtown-cluster.JPG)
+![Downtown Cluster]({{site.baseurl}}/images/downtown-cluster.JPG)
 
 Table 6: First Five Cluster Neighbourhoods of the Manhattan
-![Manhattan Cluster](/images/manhattan-cluster.JPG)
+![Manhattan Cluster]({{site.baseurl}}/images/manhattan-cluster.JPG)
 
 Figure 1: The Downtown's Map Showing Neighourhood and Venues
-![Downtown Venues Map](/images/downtown-venues-map.JPG)
+![Downtown Venues Map]({{site.baseurl}}/images/downtown-venues-map.JPG)
 
 Figure 2: The Manhattan's Map Showing Neighourhood and Venues
-![Manhattan Venues Map](/images/manhattan-venues-map.JPG)
+![Manhattan Venues Map]({{site.baseurl}}/images/manhattan-venues-map.JPG)
 
 Figure 3: The Manhattan's Map Showing Neighourhoods and Venues' Clusters
-![Manhattan K Mean](/images/manhattan-kmean.JPG)
+![Manhattan K Mean]({{site.baseurl}}/images/manhattan-kmean.JPG)
 
 Figure 4: The Downtown's Map Showing the Neighbourhoods and Venues' Clusters
-![Downtown K Mean](/images/downtown-kmean.JPG)
+![Downtown K Mean]({{site.baseurl}}/images/downtown-kmean.JPG)
 <img src='/images/downtown-kmean.JPG'/>
 
 ## 5.0 Discussion
